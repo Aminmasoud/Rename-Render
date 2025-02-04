@@ -94,6 +94,4 @@ python3 bot.py
 `/broadcast` - Message Broadcast command [FOR ADMINS USE ONLY].
 
 
-#### Join Telegram Channel 
- - [VJ Botz](https://telegram.me/VJ_Botz). Bot Updates Channel
- - Support Group [VJ-Support](https://telegram.me/VJ_Bot_Disscussion). For Bug report.
+
