@@ -11,7 +11,7 @@ API_ID = os.environ.get("API_ID", "12954268")
 
 API_HASH = os.environ.get("API_HASH", "9b9cf48eaea34bdf98d394d47b12f3e3")
 
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "8037609147:AAFP1zYE-za8j301pUTF6aFdIh9tBVPqgms") 
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "8037609147:AAFP1zYE-za8j301pUTF6aFdIh9tBVPqgmsmongodb+srv://aminmasoudch:osDdPDg2zmGDpYtM@cluster0.npwmp.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0") 
 
 FORCE_SUB = os.environ.get("FORCE_SUB", "cinephilechannel") 
 
@@ -21,13 +21,13 @@ FORCE_SUB = os.environ.get("FORCE_SUB", "cinephilechannel")
 
 DB_NAME = os.environ.get("DB_NAME", "renamevjbot")     
 
-DB_URL = os.environ.get("DB_URL", "")
+DB_URL = os.environ.get("DB_URL", "mongodb+srv://aminmasoudch:osDdPDg2zmGDpYtM@cluster0.npwmp.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
  
 FLOOD = int(os.environ.get("FLOOD", "10"))
 
 START_PIC = os.environ.get("START_PIC", )
 
-ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '5606411877').split()]
+ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '1453323801').split()]
 
 PORT = os.environ.get("PORT", "8080")
 
